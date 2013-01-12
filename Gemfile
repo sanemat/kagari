@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 1.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'carrierwave'
+
 group :test do
   gem 'rspec-rails'
   gem 'pry-rails'
