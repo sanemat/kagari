@@ -30,4 +30,5 @@ end
 group :development do
   gem 'rspec-rails'
   gem 'pry-rails'
+  gem 'thin'
 end
