@@ -24,8 +24,10 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 group :test do
   gem 'rspec-rails'
+  gem 'pry-rails'
 end
 
 group :development do
   gem 'rspec-rails'
+  gem 'pry-rails'
 end
