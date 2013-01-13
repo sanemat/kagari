@@ -34,10 +34,14 @@ group :test do
   gem 'rspec-rails'
   gem 'pry-rails'
   gem 'sqlite3'
+  gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :development do
   gem 'rspec-rails'
   gem 'pry-rails'
   gem 'sqlite3'
+  gem 'capybara'
+  gem 'factory_girl_rails'
 end
