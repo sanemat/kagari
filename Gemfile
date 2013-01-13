@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '1.9.3' if ENV['HEROKU_POSTGRESQL_VIOLET_URL'] # This is kagari.herokuapp.com specific
 
 gem 'rails', github: 'rails'
 
